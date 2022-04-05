@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "774335520212",
+    "firebase_url": "https://best-gmkpqc.firebaseio.com",
+    "project_id": "best-gmkpqc",
+    "storage_bucket": "best-gmkpqc.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:774335520212:android:51a72b5ba6a4b9775c8a41",
+        "android_client_info": {
+          "package_name": "com.example.chattapp20"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "774335520212-t1og4qd81n812tkja6macjqjst2a0e1i.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAej3n7k_a52QFa41hkGnu9U0BVOkjKa9M"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "774335520212-sabg8kr7tg8vvt0jrvljro3lhkq18dm3.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

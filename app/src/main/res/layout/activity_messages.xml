@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/custom_neon"
+    android:padding="10dp"
+    tools:context=".MessagesActivity">
+
+    <EditText
+        android:id="@+id/message_et"
+        android:layout_width="250dp"
+        android:layout_height="50dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginBottom="10dp"
+        android:background="@color/custom_turquoise"
+        android:ems="10"
+        android:gravity="start|top"
+        android:hint="Type your message here..."
+        android:inputType="textMultiLine"
+        android:textColor="@color/custom_black" />
+
+    <Button
+        android:id="@+id/message_btn"
+        android:layout_width="120dp"
+        android:layout_height="50dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginBottom="10dp"
+        android:background="@color/custom_purple"
+        android:text="Send"
+        android:textColor="@color/custom_black" />
+
+    <ScrollView
+        android:id="@+id/message_sv"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="131dp"
+        android:background="@color/custom_neon">
+
+
+        <TextView
+            android:id="@+id/message_tv"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:textColor="@color/custom_black" />
+    </ScrollView>
+</RelativeLayout>
